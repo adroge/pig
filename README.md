@@ -17,9 +17,10 @@ This is an example of expressive code, and the Principle of Single Responsibilit
 
 Create an AI that would be player 2. You could modify the `want_to_roll_again()` function to detect whose turn it is, and if it's Player One's, let the player choose, but if it's Player Two's, have the AI choose. Following the same approach of descriptive function names, with no function being any longer than six lines.
 
-Sometimes it's easier to write the function just to get it working, and then afterward, break it into smaller, well named functions.
+- It's helpful to lower the `WINNING_SCORE` constant while testing how the game works.
+- Sometimes it's easier to write the function just to get it working, and then refactor it into smaller well named functions.
 
-It's also sometimes helpful to lower the `WINNING_SCORE` constant while testing how the game works.
+The next step after adding AI would be to consider how to refactor into classes.
 
 ## Game Rules
 
